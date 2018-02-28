@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <math.h>
+
+int j = 0;
+	int k = 1;
+	int function = 0;
+	int i = 0;
+	
+int calculaTermo(){
+	function = k * k;
+	function = function + k;
+	function = function/2;
+	k++;
+	}
+
+int main(){
+	
+	printf("Digite o valor para a sequencia: \n");
+	scanf("%d",&j);
+	
+	for(i = 0 ; i < j ; i++){
+	calculaTermo();
+	printf(" %i\n", function);
+	}
+}
