@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void){
+	
+	int n1, n2, i, j;
+
+	printf("Digite dois valores inteiros: \n");
+	scanf("%i""%i", &n1, &n2);
+	
+	for(i =(n1+ 1); i < n2; i++)
+	printf("\n%d\n", i);
+
+return(0);
+}
