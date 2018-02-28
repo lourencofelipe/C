@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+main(){
+	
+	int i, j, k;
+	
+	printf("Entre tres valores inteiros: \n");
+	scanf("%i%i%i", &i, &j, &k);
+	
+	if((i < j) && (j > i) && (j < k) && (k > j)){
+	  printf("%i;%i;%i", i, j, k);
+	}else if ((j < i) && (i > j) && (i < k) && (k > i)){
+	  printf("%i;%i;%i", j, i, k);
+	}
+ return 0;
+}
