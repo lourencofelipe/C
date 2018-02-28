@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void caracteres();
+int main(){
+	
+  caracteres();
+
+return 0;
+}
+void caracteres(){
+	
+	int linha;
+	int coluna;
+	
+	for(linha = 0; linha <= 20; linha++){
+		printf("*");
+		for(coluna = 0; coluna <= linha; coluna++){
+			printf("*");
+		}
+		printf("\n");
+	}
+}
